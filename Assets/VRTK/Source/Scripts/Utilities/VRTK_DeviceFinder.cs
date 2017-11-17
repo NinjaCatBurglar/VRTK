@@ -448,6 +448,9 @@ namespace VRTK
                 case "googleinc-defaultcardboard":
                     returnValue = SDK_BaseHeadset.Headsets.GoogleCardboard;
                     break;
+                case "acermixedreality":
+                    returnValue = (summary ? SDK_BaseHeadset.Headsets.WindowsMixedReality : SDK_BaseHeadset.Headsets.AcerMixedReality);
+                    break;
             }
 
             if (returnValue == SDK_BaseHeadset.Headsets.Unknown)

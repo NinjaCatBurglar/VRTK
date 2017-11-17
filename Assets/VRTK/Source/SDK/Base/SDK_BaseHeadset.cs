@@ -81,7 +81,15 @@ namespace VRTK
             /// <summary>
             /// A summary of all Google Daydream headset versions.
             /// </summary>
-            Daydream
+            Daydream,
+            /// <summary>
+            /// A summary of all Windows Mixed Reality headset versions.
+            /// </summary>
+            WindowsMixedReality,
+            /// <summary>
+            /// A specific version of the WindowsMR headset, the consumer version of the Acer Mixed Reality headset.
+            /// </summary>
+            AcerMixedReality
         }
 
         protected Transform cachedHeadset;
